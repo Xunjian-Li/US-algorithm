@@ -1,3 +1,5 @@
+## Calculating the polynomial equation
+
 root.UHE = function(a3, a2, a1, a0, a.max=10, m, x0 = 0)
 { # Function name:(a3, a2, a1, a0, a.max=10, m, x0 = 0)###########
   # ---------------------------Aim--------------------------------
@@ -80,9 +82,6 @@ root.UHE.revise(a3,a2,a1,a0,a.max,m=3,x0=0)
 # y1t = est.res[2,dim(est.res)[2]]
 # adjus1 = c(-0.05, 0)
 # plot_points(x,y2,xt,y1t,i+1,adjus1,T,thea=1, poi="bottomleft")
-
-
-
 
 ############solving a3*xt^3+a2*xt^2+a1*xt + a0 = 0 with closed-form solution###
 root_ploynomial_3 = function(a3, a2, a1, a0)
