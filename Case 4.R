@@ -1,3 +1,9 @@
+#### case 4: Computational efficiency of the proposed fast US algorithm
+## computation efficiency of fast US in Yule distribution
+
+library(VGAM)
+library(lubridate)
+
 est_theta_func_NR = function(theta0 = 1){
   esp = 1
   thetat = theta0
