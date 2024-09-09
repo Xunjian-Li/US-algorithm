@@ -209,23 +209,9 @@ for(kk in c(1:1)){
   }
 }
 
-rest.all
-
+print(rest.all)
 
 sum(rest.all[,2])
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 time_start = Sys.time()
 times.all = 1
