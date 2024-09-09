@@ -1,3 +1,7 @@
+#####case 3: Solving an equation with multiple roots
+############plot of multiroot###############
+library(latex2exp)
+
 a2 = -0.5
 a1 = -2
 a0 = 1
