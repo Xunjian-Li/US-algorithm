@@ -1,18 +1,6 @@
 #####case 2: 0.5-th quantile of normal distribution
 ############plots of two U functions###############
 library(latex2exp)
-# x = seq(-3,3,0.01)
-# p = 0.9
-# y1 = p - pnorm(x,mu,sig)
-# plot(x,y1,type='l',ylim=c(-0.6,1))
-# # xt = 2
-# b2 = ((x<=xt)-(x>xt))/(sig^3*sqrt(2*pi)*exp(1/2))
-# y2 = p - pnorm(xt,mu,sig) - dnorm(xt,mu,sig)*(x-xt) + b2/2*(x-xt)^2
-# lines(x,y2,type='l',col='red')
-# 
-# y3 = p - pnorm(xt,mu,sig) - dnorm(xt,mu,sig)*(x-xt) + 
-#   (xt-mu)/sig^2*dnorm(xt,mu,sig)/2*(x-xt)^2 -1/(3*sig^3*sqrt(2*pi)*exp(3/2))*(x-xt)^3
-# lines(x,y3,type='l',col='green')
 
 plot_points = function(x,y2,xt,y1t,i,adjus1,star1=F,thea=1, poi="topright"){
   if(!star1){
@@ -243,9 +231,6 @@ estimation_fun2.BS = function(mu,sig,p,x0=0){
 }
 est.res5 = estimation_fun2.BS(mu,sig,p,x0)
 est.res = est.res5
-
-
-
 
 est.res1
 est.res2
